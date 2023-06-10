@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+# Getti![todo](https://github.com/Makho96/TodoApplication/assets/22819255/3dfae151-7254-4acf-a98c-96e4422870ee)
+ng Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
