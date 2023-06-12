@@ -1,13 +1,40 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --text-color-main: #666666;
+    --text-color-secondary: #bdbdbd;
+    --color-red: #cb9a9a;
+    --page-background-color: #d1d1d1;
+    --modal-background-color: #ffffff;
+    --border-color-main: #bbb8b8;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.removeSVG svg path {
+  stroke: var(--color-red);
+}
+
+.checkbox svg path {
+  stroke: #62c3b0;
+}
+
+.chevronDown svg path {
+  stroke: #e6e6e6;
 }

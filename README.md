@@ -1,3 +1,17 @@
+# How Application is working
+
+The user needs to type text in input with the placeholder "What needs to be done".
+
+If the user adds many tasks scrollbar will appear.
+
+On the "Enter" key click task is added as to do in the list.
+
+Users can update todo by clicking on its text. The input will appear. If the user changes this text and hits enter task text will be updated. On the "ESC" key press input will disappear, and the original text will appear. (Works as cancel).
+
+On the checkmark click, the task is marked as complete. Clicking again will cause this task to be marked as "active" again. Changing completed tasks is impossible.
+
+In the footer of the Todo modal left texts shows active tasks number. Three buttons in the middle are for filtering and the rightmost button is removing all the completed tasks from the list.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
